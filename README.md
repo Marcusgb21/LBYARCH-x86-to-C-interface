@@ -6,7 +6,7 @@ The project specifications are as follows:
 # C Program
 There are two C files: "main" and "dotProduct". The main file is responsible for initializing the vector with random values, calculating the average execution time of both the dotProduct and assembly files, and verifying the consistency of the vector values.
 
-On the other hand, the dotProduct file contains the implementation of the dotProduct algorithm, wwhich takes vectorA and vectorB containing n elements. It then multiplies the corresponding elements of the two vectors together. Lastly, it sums up all the products contained in step 2. 
+On the other hand, the dotProduct file contains the implementation of the dotProduct algorithm, which takes vectorA and vectorB containing n elements. It then multiplies the corresponding elements of the two vectors together. Lastly, it sums up all the products contained in step 2. 
 
 # ASM file
 The ASM file does the same operation as the dot product file that utilizes SIMD instructions(mulsd and addsd) for double precision computation. This has the potential to yield superior performance compared to the C kernel, particularly when dealing with sizable arrays, as it can execute operations on multiple elements concurrently. Conversely, the dot product function, being implemented in C, may introduce marginally higher overhead due to its scalar nature and the mechanism for invoking functions.
