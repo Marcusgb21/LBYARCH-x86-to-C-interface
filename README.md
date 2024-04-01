@@ -14,7 +14,7 @@ The ASM file does the same operation as the dot product file that utilizes SIMD 
 # Testing
 We conducted tests with array sizes of 2^20, 2^24, and 2^28, but unfortunately, we were unable to proceed with the 2^30 size due to its exceeding the capacity of my machine.
 
-# Results C and x86-64 assembly
+# Results: C and x86-64 assembly Debug and Release 
 To add...
 
 # Error Checking
