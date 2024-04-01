@@ -12,6 +12,9 @@ The dotProduct file computes for the dotProduct algorithm where it is called ont
 We tested it using 2^20, 2^24, 2^28 but unable to run 2^30 due it being too much on my machine. 
 
 # Results C and x86-64 assembly
+# Error Checking
+![image](https://github.com/Marcusgb21/LBYARCH-x86-to-C-interface/assets/64012244/5cdac315-f5e6-4742-b08e-f2647817babc)
+
 # DEBUG 2^20
 ![image](https://github.com/Marcusgb21/LBYARCH-C_assembly_interface/assets/64012244/6c8fd351-e665-4e20-a80e-bfe7f3f0fc62)
 
