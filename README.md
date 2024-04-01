@@ -16,7 +16,7 @@ The ASM file does the same operation as the dot product file that utilizes SIMD 
 We conducted tests with array sizes of 2^20, 2^24, and 2^28, but unfortunately, we were unable to proceed with the 2^30 size due to its exceeding the capacity of my machine.
 
 # Results: C and x86-64 assembly Debug and Release 
-After conducting the testing, we were able to produce matching results (for both the C and ASM file) with array sizes of 2^20, 2^24, and 2^28. And a confirmation of mismatch results in our error checking. Resutlts are as follows below:
+After conducting the testing, we were able to produce matching results (for both the C and ASM file) with array sizes of 2^20, 2^24, and 2^28. And a confirmation of mismatch results in our error checking. Results are as follows below:
 
 # Error Checking
 This is a showcase of our error testing, where a value was altered before conducting the test.
@@ -46,10 +46,10 @@ This is a showcase of our error testing, where a value was altered before conduc
 ![image](https://github.com/Marcusgb21/LBYARCH-x86-to-C-interface/assets/64012244/a3019521-c54e-4bad-b8de-6d7578c89bc7)
 
 # Comparative Results
-To add...
+As observed in the provided data above, it's evident that our Assembly implementation performs better than the C implementation in smaller input sizes (2^24), while the C implementation consistently outperforms the assembly implementation in larger input sizes (2^28).
 
 # Analysis of Results
-To add...
+This suggests that for this particular task and dataset, there is no clear winner between the two implementations, however, considering the worst-case scenario (2^28) the C implementation is more efficient and optimized. However, further optimizations or adjustments in both programs may narrow this performance gap or even reverse it under certain conditions.
 
 
 
