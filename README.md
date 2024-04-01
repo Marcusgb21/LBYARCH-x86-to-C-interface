@@ -45,6 +45,12 @@ This is a showcase of our error testing, where a value was altered before conduc
 # RELEASE 2^28
 ![image](https://github.com/Marcusgb21/LBYARCH-x86-to-C-interface/assets/64012244/a3019521-c54e-4bad-b8de-6d7578c89bc7)
 
+# Comparative Results
+To add...
+
+# Analysis of Results
+To add...
+
 
 
 
