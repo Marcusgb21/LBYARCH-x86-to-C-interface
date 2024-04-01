@@ -8,8 +8,11 @@ There are 2 C files which are main and dotProduct. The main file initializes the
 
 The dotProduct file computes for the dotProduct algorithm where it is called onto the main c file.
 
+# ASM file
+The ASM file does the same operation as the dot product file that utilizes SIMD instructions(mulsd and addsd) for double precision computation. This has the potential to yield superior performance compared to the C kernel, particularly when dealing with sizable arrays, as it can execute operations on multiple elements concurrently. Conversely, the dot product function, being implemented in C, may introduce marginally higher overhead due to its scalar nature and the mechanism for invoking functions.
+
 # Testing
-We tested it using 2^20, 2^24, and 2^28 but were unable to run 2^30 due to it being too much on my machine. 
+We conducted tests with array sizes of 2^20, 2^24, and 2^28, but unfortunately, we were unable to proceed with the 2^30 size due to its exceeding the capacity of my machine.
 
 # Results C and x86-64 assembly
 # Error Checking
