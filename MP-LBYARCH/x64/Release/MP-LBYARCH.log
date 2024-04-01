@@ -1,0 +1,8 @@
+﻿  main.c
+C:\Users\marc\Documents\School\ProgrammingStuff\LBYARCH-C\x86 C\MP-LBYARCH\main.c(11,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  2 of 6 functions (33.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  MP-LBYARCH.vcxproj -> C:\Users\marc\Documents\School\ProgrammingStuff\LBYARCH-C\x86 C\MP-LBYARCH\x64\Release\MP-LBYARCH.exe

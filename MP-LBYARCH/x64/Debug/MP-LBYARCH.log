@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\marc\Documents\School\ProgrammingStuff\LBYARCH-C\x86 C\MP-LBYARCH\main.c(11,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  MP-LBYARCH.vcxproj -> C:\Users\marc\Documents\School\ProgrammingStuff\LBYARCH-C\x86 C\MP-LBYARCH\x64\Debug\MP-LBYARCH.exe
