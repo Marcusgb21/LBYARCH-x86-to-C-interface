@@ -4,9 +4,9 @@ The project specifications are as follows:
 ![image](https://github.com/Marcusgb21/LBYARCH-C_assembly_interface/assets/64012244/0035496c-1fa0-4eb1-8d1e-c01e95748a3e)
 
 # C Program
-There are 2 C files which are main and dotProduct. The main file initializes the vector with random values and computes for the average execution of both the dotProduct and asm files. In addition, it also checks if there are any inconsistencies with the vector values. 
+There are two C files: "main" and "dotProduct". The main file is responsible for initializing the vector with random values, calculating the average execution time of both the dotProduct and assembly files, and verifying the consistency of the vector values.
 
-The dotProduct file computes for the dotProduct algorithm where it is called onto the main c file.
+On the other hand, the dotProduct file contains the implementation of the dotProduct algorithm, wwhich takes vectorA and vectorB containing n elements. It then multiplies the corresponding elements of the two vectors together. Lastly, it sums up all the products contained in step 2. 
 
 # ASM file
 The ASM file does the same operation as the dot product file that utilizes SIMD instructions(mulsd and addsd) for double precision computation. This has the potential to yield superior performance compared to the C kernel, particularly when dealing with sizable arrays, as it can execute operations on multiple elements concurrently. Conversely, the dot product function, being implemented in C, may introduce marginally higher overhead due to its scalar nature and the mechanism for invoking functions.
@@ -15,7 +15,10 @@ The ASM file does the same operation as the dot product file that utilizes SIMD 
 We conducted tests with array sizes of 2^20, 2^24, and 2^28, but unfortunately, we were unable to proceed with the 2^30 size due to its exceeding the capacity of my machine.
 
 # Results C and x86-64 assembly
+To add...
+
 # Error Checking
+This is a showcase of our error testing, where a value was altered before conducting the test.
 ![image](https://github.com/Marcusgb21/LBYARCH-x86-to-C-interface/assets/64012244/5cdac315-f5e6-4742-b08e-f2647817babc)
 
 # DEBUG 2^20
