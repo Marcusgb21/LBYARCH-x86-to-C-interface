@@ -32,6 +32,7 @@ int main() {
 		clock_t end_C = clock();
 		timeC += ((double)(end_C - start_C)) / CLOCKS_PER_SEC;
 
+		//vectorA[0] = 99.999; //error checking, uncomment to test.
 		clock_t start_ASM = clock();
 		sdot_asm = dotProduct_asm(vectorA, vectorB, vectorSize);
 		clock_t end_ASM = clock();
@@ -46,12 +47,12 @@ int main() {
 	printf("Average execution time (ASM) is %lf seconds\n", avgExeTimeASM);
 
 	if (match) {
-		printf("All iterations contain matching results. The x86-64 kernel output is correct\n");
+	printf("\n********** All iterations contain matching results. The x86-64 kernel output is correct **********\n");
 	}
 	else {
-		printf("The iterations did not produce matching results.");
+	printf("\n********** The iterations did not produce matching results.**********\n");
 	}
-	printf("The dot product of these two vectors are: %lf using C\n", sdot);
+	printf("\nThe dot product of these two vectors are: %lf using C\n", sdot);
 	printf("The dot product of these two vectors are: %lf using ASM\n", sdot_asm);
 	free(vectorA);
 	free(vectorB);
