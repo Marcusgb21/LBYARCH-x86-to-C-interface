@@ -1,5 +1,6 @@
 # LBYARCH-C_assembly_interface
 
+# Created by Marcus Calalang & Barron Ong on March-April 2024
 The project specifications are as follows:
 ![image](https://github.com/Marcusgb21/LBYARCH-C_assembly_interface/assets/64012244/0035496c-1fa0-4eb1-8d1e-c01e95748a3e)
 
